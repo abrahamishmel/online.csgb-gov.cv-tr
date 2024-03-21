@@ -1,0 +1,160 @@
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+  }
+  .container {
+    text-align: center;
+    margin-top: 100px;
+   
+  }
+  .container .img {
+
+    width: 10px;
+   }
+   */
+
+  /* .logo {
+    max-width: 200px;
+   
+        width: 200px; 
+        height: auto;
+       */
+  /* }
+  .heading {
+    font-size: 34px;
+    margin-top: 40px;
+    margin-right: 32%;
+    color: #0bec95;
+    text-align: left; /* Set left alignment for paragraphs */
+   
+    /* width: 60%;
+    margin: 20px auto;
+    line-height: 1.6;
+    margin-left: 26%;
+
+  } 
+  .paragraph { */
+    /* width: 60%; */
+    /* margin: 20px auto;
+    line-height: 1.4;
+    text-align: left;  */
+    /* margin-left: 26%;
+     font-size: auto;
+  }
+  .bold-text {
+    font-weight: bold;
+    font-size: auto;
+  }
+
+
+  .center {
+    margin-right: 15%;
+      
+ }
+ */ */
+
+
+
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .logo {
+    max-width: 200px;
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-top: 40px;
+    color: #0ebb79;
+    text-align: left; /* Set left alignment for paragraphs */
+    width: 60%;
+    margin: 20px auto;
+    line-height: 1.6;
+    margin-left: 26%;
+  }
+  
+  .paragraph {
+    margin: 20px auto;
+    line-height: 1.4;
+    text-align: left; /* Set left alignment for paragraphs */
+    margin-left: 26%;
+    font-size: 15px;
+  }
+  .card {
+    background-color: #fbf9f9(246, 246, 246);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(77, 77, 77, 0.015);
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+
+  .bold-text {
+    font-weight: bold;
+    font-size: auto;
+  }
+  
+  .center {
+    margin-right: 17%;
+    color: rgba(68, 66, 66, 0.773);
+    font-size: 18px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 400px) {
+    .container {
+      margin-top: 50px;
+    }
+  
+    .logo {
+      width: 150px; /* Adjust size for smaller screens */
+    }
+  
+    .heading {
+      font-size: 25px;
+      margin-left: 10%;
+      width: 40%; /* Adjust width for smaller screens */
+    }
+  
+    .paragraph {
+        font-size: 15px;
+      margin-left: 9%;
+      width: 98%; /* Adjust width for smaller screens */
+    }
+
+    .bold-text {
+        font-weight: bold;
+        font-size: auto;
+      }
+       
+  .center {
+    margin-left: 5.5%;
+    font-size: 11px;
+    color: rgb(37, 36, 36);
+  }
+
+  .card h2 {
+    font-size: 124px; /* Adjust font size for smaller screens */
+    overflow: hidden; /* Prevent text overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+  }
+  }
